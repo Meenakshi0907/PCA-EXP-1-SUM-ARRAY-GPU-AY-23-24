@@ -28,7 +28,7 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
-'''c
+```c
 #include <cuda_runtime.h>
 #include <stdio.h>
 
@@ -170,7 +170,7 @@ int main(int argc, char **argv)
 
     return(0);
 }
-'''
+```
 
 ## OUTPUT:
 ![image](https://github.com/Meenakshi0907/PCA-EXP-1-SUM-ARRAY-GPU-AY-23-24/assets/94165108/d66c676c-5b46-4279-b0c4-4f89e6d53883)
